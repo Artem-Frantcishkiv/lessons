@@ -1,0 +1,24 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300italic,regular,500italic,700,900italic);
+
+.wrapper {background-color: rgb(86, 57, 57);
+   font-family: Roboto;
+}
+
+
+
+.img{
+   display: flex;
+   height:200px ;
+   width: 200px;
+   padding-left: 35px;
+   border-radius: 20px 30px 20px 40px ;
+}
+.header-menu__about {
+   padding-left: 680px;
+}
+.header-menu__about-us {
+   padding-left: 680px;
+}
+
+
