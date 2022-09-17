@@ -1,0 +1,85 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,,500italic,700,,900,900italic&display-swap);
+@import url(https://fonts.googleapis.css?family=Qwitcher+Grypcom:regular,700&display-swap);
+
+
+
+
+  .wrapper{
+   font-family: "Roboto";
+   padding: 50px;
+   background-color: darkorchid;
+  }
+
+  .header__block{
+   
+   margin-left:  30px;
+   margin-right: 30px;
+  
+  }
+
+
+  .text{
+   background-color: rgba(255, 225, 0, 0.527);
+   text-decoration: line-through;
+   margin-bottom: 30px;
+   text-shadow:  10px 3px 10px rgb(174, 255, 0);
+   font-weight: 600;
+   text-align: center;
+   font-family:"Roboto";
+   font-size: 20px;
+   color:  rgb(100, 25, 123);
+  }
+
+
+
+  .header__block-list{
+   text-decoration:overline;
+   font-style: italic;
+
+  }
+  .text__list{
+   text-shadow: 2px 5px 2px royalblue;
+   font-weight: 900;
+   font-family:"Qwitcher Grypcom" ;
+   width: 200px;
+   padding: 30px;
+   background-color: rgb(97, 216, 97);
+  }
+
+  .text__block{
+   text-decoration: overline;
+   text-transform:uppercase ;
+  width:400px;
+   margin:30px;
+   color: aquamarine;
+   text-shadow:  10px 10px 2px  firebrick;
+   text-align: right;
+  }
+  .text__block-more{
+   
+   margin-bottom: 30px;
+   border-radius: 20px;
+   background-color: #ad4937aa;
+   text-transform: capitalize;
+   color: #986860e6;
+   font-size: 20px;
+  }
+.text__block-impro{
+   box-sizing: border-box;
+   
+  
+   margin-bottom: 20px;
+   text-shadow:  3px 2px 4px yellow;
+   text-transform: uppercase;
+   color: gold;
+   font-weight: 800;
+   text-align: justify;
+  
+}
+.text__paragraph{
+      letter-spacing: 3px;
+   background-color: darkgray;
+   text-decoration: line-through;
+   border-radius: 20px;
+}
