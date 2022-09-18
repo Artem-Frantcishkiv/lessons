@@ -1,0 +1,104 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700italic,900);
+
+body{
+   width: 810px;
+}
+
+.header{
+  
+   font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+
+
+}
+.image{
+   min-width: 360px;
+   margin-top: 40px;
+   margin-bottom: 60px;
+}
+
+
+
+.section{
+   font-family: 'Lato';
+   font-style: normal;
+font-weight: 700;
+font-size: 20px;
+   margin-bottom:24px;
+}
+
+.main__section-1{
+   color: #424551;
+   font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-bottom: 24px;
+}
+
+.main__section-2{
+   color: #424551;
+   font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-bottom: 48px;
+}
+
+
+.footer__title{
+   font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+margin-left: 58px;
+margin-bottom: 48.5px;
+}
+
+.footer__text{
+   color: #424551;
+   font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-bottom: 26px;
+}
+.list{
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   margin-left: 34px;
+   margin-bottom: 24.5px;
+   line-height: 160%;
+   color: #424551;
+}
+
+
+.footer___last-text{
+   font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #424551;
+margin-bottom: 58px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
