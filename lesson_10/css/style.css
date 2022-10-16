@@ -1,0 +1,82 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,&display=swap);
+
+body{
+   font-family: Lato;
+   color: #1E212C;
+
+}
+
+.page {
+}
+.page__container {
+   max-width: 810px;
+   margin: 0 auto;
+}
+.page__title {
+   font-weight: 900;
+font-size: 46px;
+line-height: 130%;  
+margin-bottom: 92px;
+}
+.image__pic{
+   margin-bottom: 60px;
+}
+
+.image {
+}
+.page__subtitle {
+   margin-bottom: 24px;
+   font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+
+}
+.page__text{
+   font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+margin-bottom: 28px;
+}
+.page__text p:first-child{
+   padding-bottom: 40px;
+}
+
+.page__quote {
+   padding-left: 58px;
+   background: url("../img/braces.svg") no-repeat top left;
+   margin-bottom: 24px;
+   font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+}
+.page__list-title {
+   margin-bottom: 24px;
+   font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+
+}
+.page__list {
+   margin-bottom: 24px;
+ padding-left: 24px;
+}
+.list {
+   color: #424551;
+   background: url("../img/icon.svg") no-repeat 0 6px  ;
+   padding-left: 32px;
+   font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+.list:hover{
+   color: red;
+}
+.page__last-text {
+   font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+margin-bottom: 40px;
+}
