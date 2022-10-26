@@ -1,0 +1,156 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,&display=swap);
+.wrapper{
+   overflow: hidden;
+   min-height: 100%;
+   position: relative;
+}
+
+body{
+
+   height:2500px ;
+   padding: 50px;
+   font-family: Lato;
+  background-color: rgb(209, 167, 167);
+}
+
+.page {
+
+}
+.page__container{
+   width: 810px;
+   margin: 0 auto;
+   height: 300px;
+}
+.page__title {
+   border-radius: 20px;
+   background-color: rgb(183, 223, 223);
+   text-align: center;
+   font-weight: 700;
+   font-size: 40px;
+   margin: 30px;
+}
+
+.items-first {
+
+}
+.items-first__item {
+   padding: 15px;
+   text-align: center;
+   font-weight: 700;
+   color: #fff;
+   
+}
+.items-first__item--bg-brown {
+   position: relative;
+   right: 20px;
+   background-color: #794f45;
+}
+.items-first__item--bg-purple {
+   background-color:purple;
+   position: relative;
+   top: 20px;
+   left: 30px;
+   z-index: 1;
+}
+.items-first__item--bg-green {
+   position: relative;
+   right: 30px;
+   
+   background-color: green;
+}
+
+/* ================ */
+
+.items-second {
+
+}
+.items-second__item {
+   padding: 15px;
+   text-align: center;
+   font-weight: 700;
+   color: #fff;
+}
+.items-second__item--bg-brown {
+   position: absolute;
+   top: 500px;
+   left: 20px;
+   background-color: #794f45;
+}
+.items-second__item--bg-purple {
+   background-color:purple;
+
+}
+.items-second__item--bg-green {
+   position: relative;
+   right: 30px;
+   background-color: green;
+}
+
+/* ================= */
+
+.items-third {
+
+}
+.items-third__item {
+   padding: 15px;
+   text-align: center;
+   font-weight: 700;
+   color: #fff;
+}
+.items-third__item--bg-yellow{
+   background-color: yellow;
+}
+.items-third__item--bg-brown {
+  
+   left: 50px;
+   z-index: 300;
+   top: 30px;
+   position: fixed;
+   background-color: yellow;
+}
+.items-third__item--bg-purple {
+   background-color:purple;
+}
+.items-third__item--bg-green {
+   background-color: green;
+}
+
+/* ================== */
+
+
+
+.items-fourth {
+  
+}
+
+.items-fourth__item {
+   padding: 15px;
+   text-align: center;
+   font-weight: 700;
+   color: #fff;
+   top: 0px;
+   position: sticky;
+ 
+}
+.items-fourth__item--bg-brown {
+  
+   background-color: #794f45;
+}
+.items-fourth__item--bg-purple {
+   background-color:purple;
+}
+.items-fourth__item--bg-green {
+   background-color: green;
+   
+}
+
+
+.image{
+   margin-top: 450px;
+   text-align: center;
+   width: 100%;
+}
+
+
+
