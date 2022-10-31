@@ -1,0 +1,147 @@
+@import url(null.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,&display=swap);
+body{
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,30,0.7570378493194152) 19%, rgba(72,77,87,1) 32%, rgba(4,197,156,1) 58%, rgba(0,212,255,1) 100%);
+   color: #fff;
+   font-family: Lato;
+  
+ 
+}
+
+
+
+[class*='__item']{
+   width: 200px;
+   height: 200px;
+   background-color: rgb(118, 118, 193);
+   border-radius: 20px;
+   text-align: center;
+
+}
+
+[class*='__body']{
+   width: 200px;
+   height: 200px;
+   background-color: blueviolet;
+   border-radius: 20px;
+   margin-right:50px;
+   margin-bottom: 50px;
+
+}
+
+/* ================ */
+.wrapper{
+   overflow: hidden;
+    min-height: 100%;
+    position: relative;
+}
+/* =============== */
+
+.header__title {
+   font-size: 20px;
+   text-align: center;
+   padding: 20px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+
+/* ======================= */
+
+.main {
+   padding: 50px;
+}
+.main__container {
+   flex-wrap:wrap;
+   display: flex;
+   margin: 0 auto;
+   width: 1010px;
+}
+
+/* ========== */
+
+
+.translate__item:hover{
+   transition: all 0.3s;
+   transform: translateX(10px) translateY(10px);
+}
+
+
+/* ================= */
+
+
+.scale__item:hover{
+   transition: all 1s;
+   transform: scale(0.5);
+}
+  
+
+   /* ================== */
+
+
+.rotate__item:hover{
+   transition: all 1s;
+   transform: rotate(20deg);
+}
+
+/* ================ */
+
+
+.skew__item:hover{
+   transition: all 1s;
+   transform: skew(7deg,-45deg);
+}
+/* ================ */
+
+.perspective__body{
+   perspective: 200px;
+}
+.perspective__item:hover{
+   transform: rotateY(30deg);
+   transition: all 0.3s ease 0s;
+}
+
+
+/* ======================= */
+
+.flip{
+   
+}
+.flip__body {
+   background-color: inherit;
+   perspective: 300px;
+   transform-style: preserve-3d;
+}
+.flip__item {
+   transition: all 1s;
+	transform: rotateY(180deg);
+}
+.flip__body:hover .flip__item{
+   background: url("../img/some.jpeg") 0 0 / cover no-repeat;
+   transform: rotateY(-180deg);
+}
+
+.flip__text {
+   transform: rotateY(180deg);
+}
+
+/* ================= */
+
+
+.matrix__item:hover{
+   transition: all 1s;
+   transform: matrix(0.1, 1, 0.5, 0.1, 1, 2);
+}
+/* =----================ */
+
+.origin__item:hover {
+   transform-origin: 100% -50%;
+   transform: rotate(-25deg) scale(.5);
+   transition: all 0.3s ease 0s;
+
+}
+
+
+
+
+
+
