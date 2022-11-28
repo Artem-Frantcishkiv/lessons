@@ -1,0 +1,58 @@
+/* кнопка */
+
+
+.button{
+ color: #fff;
+font-weight: 700;
+letter-spacing: 0.5px;
+background: linear-gradient(55.95deg, #c13f3b 0%, #da6a29 100%);
+border-radius: 4px;
+line-height: 1.25;
+width:340px;
+display: inline-block;
+padding: 16px 40px;
+position: relative;
+}
+.button::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 4px;
+    transition: opacity 0.5s ease 0s;
+    background: linear-gradient(55.95deg, #b75857 0%, #6b645f 100%);
+}
+.button span{
+    z-index: 2;
+    position: relative;
+}
+
+.button:hover::before{
+opacity: 1;
+}
+
+.button--border {
+border-radius:  4px;
+transition: all 0.3s ease 0s;
+color: #F75E05;
+background: transparent;
+border:  1px solid;
+padding: 15px 40px;
+
+} 
+.button--border:hover{
+    border:1px solid #FF3F3A;
+    background: linear-gradient(55.95deg, #48403f 0%, #b5683b 100%);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
